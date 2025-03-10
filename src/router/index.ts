@@ -4,7 +4,7 @@ import Login from "../views/Login.vue";
 import Profile from "../views/Profile.vue";
 import SanPham from "../views/SanPham.vue";
 import Ram from "../views/Ram.vue";
-import NhanVien from "../views/NhanVien.vue";
+import NhanVien from "../views/Profile.vue";
 const routes = [
     {
         path: '/',
@@ -31,11 +31,7 @@ const routes = [
         name: 'Login',
         component: Login,
     },
-    {
-        path: '/nhan-vien',
-        name: 'NhanVien',
-        component: NhanVien,
-    },
+    
 ]
 
 const router = createRouter({
